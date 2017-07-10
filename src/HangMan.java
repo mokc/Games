@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+// derp
 public class HangMan {
 	public static final int NUM_WORDS = 69320;
 	public static final int GUESSES_LEFT = 6;
