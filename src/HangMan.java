@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class HangMan {
-	public static final int NUM_WORDS = 69318;
+	public static final int NUM_WORDS = 69320;
 	public static final int GUESSES_LEFT = 6;
 	
 	public static void main(String[] args) throws FileNotFoundException {
