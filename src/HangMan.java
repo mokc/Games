@@ -1,8 +1,9 @@
 import java.io.*;
 import java.util.*;
 
+// derp derp derp derp 
 public class HangMan {
-	public static final int NUM_WORDS = 69901;
+	public static final int NUM_WORDS = 69320;
 	public static final int GUESSES_LEFT = 6;
 	
 	public static void main(String[] args) throws FileNotFoundException {
@@ -35,13 +36,13 @@ public class HangMan {
 					"guessed: " + wrongGuesses + "\nType a letter: ");
 			String guess = input.next();
 			System.out.println();
-			
+
 			// ensures input is only one letter; keep asking until one letter
 			while(guess.length() != 1) {
 				System.out.println("Incorrect format. Try again.");
 				guess = input.next();
 			}
-			
+
 			// fencepost issue for list of incorrectly guessed letters
 			if(!word.contains(guess)) {
 				guessesLeft--;
